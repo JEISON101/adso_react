@@ -1,0 +1,46 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card{
+  width: 390px;
+  background-color: azure;
+  color: #001b66;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgb(28, 183, 255);
+}
+
+.card:hover{
+  box-shadow: 5px 5px 10px rgb(66, 195, 255);
+  transition: ease 0.5s;
+  transform: scale(105%);
+}
+
+.imagen{
+  width: 100%;
+  max-height: 60px;
+}
+
+.change{
+  display: grid;
+}
+
+input{
+  color: #001b66;
+  background-color: azure;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  height: 30px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+button{
+  background-color: azure;
+  color: #001b66;
+}
