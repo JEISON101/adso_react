@@ -1,6 +1,7 @@
 import "./App.css";
-import { Change } from "./components/change";
-//import { Lista } from "./components/lista";
+//import { Formulario } from "./components/formulario";
+//import { Change } from "./components/change";
+import { Lista } from "./components/lista";
 
 export interface Personaje {
   id: number;
@@ -15,7 +16,7 @@ function App() {
 
   return (
     <>
-      <Change/>  
+      <Lista/>
     </>
   );
 };

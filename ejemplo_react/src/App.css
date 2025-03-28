@@ -41,6 +41,20 @@ input{
 }
 
 button{
-  background-color: azure;
-  color: #001b66;
+  height: 50px;
+  background-color: rgb(24, 109, 221);
+  color: #ffffff;
+}
+
+form{
+  display: grid;
+}
+
+.si{
+  display: grid;
+  position: absolute;
+}
+
+.no{
+  display: none; 
 }
